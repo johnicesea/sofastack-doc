@@ -5,6 +5,7 @@
 
 ```xml
 <build>
+  <plugins>
     <plugin>
         <groupId>com.alipay.sofa</groupId>
         <artifactId>sofa-ark-maven-plugin</artifactId>
@@ -15,12 +16,13 @@
                 <goals>
                     <goal>repackage</goal>
                 </goals>
-            </excution>
+            </execution>
         </executions>
         <configuration>
             <attach>false</attach>
         </configuration>
     </plugin>
+  </plugins>
 </build>
 ```
 
